@@ -661,3 +661,39 @@ fun main() {
     val triatleta = Triatleta()
     verificarHabilidades(triatleta)
 }
+
+```
+
+## SESIÓN 5: Programación funcional
+
+* Ejercicio1 l: Crea una función literal que calcule el cuadrado de un número y úsala para calcular el cuadrado de 5.
+
+```Kotlin
+val cuadrado = { x: Int -> x * x}
+	fun main() {
+        println(cuadrado(5))
+    }
+```
+* Ejercicio 2: Uso simple de función de orden superior: Utiliza la función de orden superior filter para obtener una lista de números pares de una lista dada.
+
+```Kotlin
+val numeros = listOf(1, 2, 3, 4, 5)
+val pares = numeros.filter { it % 2 == 0 }
+fun main(){
+println(pares) // Imprime: [2, 4]
+}
+```
+* Ejercicio 3: Función de orden superior personalizada: Crea una función de orden superior llamada aplicarOperacion que tome dos números y una función, y aplique esa función a los números.
+
+  ```Kotlin
+  fun aplicarOperacion(a: Int, b: Int, operacion: (Int, Int) -> Int): Int{
+    return operacion(a,b)
+} 
+val suma = aplicarOperacion(5.0, 3.0){x, y -> x + y}
+fun main(){
+    println("Suma: $suma")
+}
+```
+
+
+
