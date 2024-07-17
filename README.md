@@ -685,14 +685,16 @@ println(pares) // Imprime: [2, 4]
 ```
 * Ejercicio 3: Función de orden superior personalizada: Crea una función de orden superior llamada aplicarOperacion que tome dos números y una función, y aplique esa función a los números.
 
-  ```Kotlin
+```Kotlin
   fun aplicarOperacion(a: Int, b: Int, operacion: (Int, Int) -> Int): Int{
     return operacion(a,b)
 } 
+
 val suma = aplicarOperacion(5.0, 3.0){x, y -> x + y}
 fun main(){
     println("Suma: $suma")
 }
+  
 ```
 
 
