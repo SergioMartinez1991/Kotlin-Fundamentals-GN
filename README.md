@@ -290,7 +290,7 @@ fun main() {
 ```
 
 
-## SESIÓN 3 Programación orientada a objetos - Parte I
+## SESIÓN 3 Programación orientada a objetos 
 
 ## 1. Clase Libro
 * Crea una clase Libro con los atributos titulo, autor y añoPublicacion. Incluye un constructor primario y un método para imprimir la información del libro.
@@ -427,7 +427,8 @@ fun main() {
 }
 ```
 
-## SESIÓN 4º - PARTE II
+
+## SESIÓN 4º
 
 ## 1. Herencia y Polimorfismo
 * Crea una clase base Animal con un método hacerSonido().
