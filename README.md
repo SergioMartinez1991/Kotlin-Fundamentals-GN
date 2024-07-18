@@ -428,7 +428,7 @@ fun main() {
 ```
 
 
-## SESIÓN 4º
+## Sesión 4: Programación orientada a objetos - Parte II
 
 ## 1. Herencia y Polimorfismo
 * Crea una clase base Animal con un método hacerSonido().
